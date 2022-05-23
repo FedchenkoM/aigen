@@ -1,0 +1,30 @@
+.search-page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    &__header {
+        box-sizing: border-box;
+        position: fixed;
+        width: 1200px;
+        padding: 20px;
+        color: white;
+        margin: 0;
+        background-color: black;
+        z-index: 2;
+    }
+
+    &__body {
+        width: 100%;
+        max-width: 1200px;
+        position: fixed;
+        top: 60px;
+        padding: 5px;
+        display: flex;
+    }
+
+    &__result {
+        padding: 60px 0 0 40%;
+    }
+}
